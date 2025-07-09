@@ -1,0 +1,66 @@
+.page {
+  background-color: #c7cca4; /* Warna hijau muda sesuai gambar */
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.form {
+  background-color: #ffffff; /* Putih bersih */
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Bayangan lebih tebal */
+  max-width: 900px;
+  width: 100%;
+  margin: 3rem auto; /* Lebih besar jaraknya dari atas */
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border: 1px solid #dee2be; /* garis lembut agar kontras dg bg */
+}
+
+
+.info {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.button {
+  background-color: #2f6fef;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #2058cc;
+}
+

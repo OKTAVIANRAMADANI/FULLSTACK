@@ -1,0 +1,131 @@
+.page {
+  background-color: #c7cca4; /* Warna hijau muda sesuai gambar */
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.filterBar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.searchBtn {
+  background-color: #2f6f4e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.roomList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start; /* Geser ke kiri */
+}
+
+.card {
+  display: flex;
+  gap: 1.5rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  align-items: center;
+  width: 900px; /* Tetap besar */
+  max-width: 100%;
+}
+
+.image {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.facilities {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.priceBox {
+  text-align: right;
+  min-width: 160px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.bookBtn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.bookBtn:hover {
+  background-color: #ddd;
+}
+
+.roomList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 4rem; /* Jarak dari footer */
+}
+
+/* Button */
+.filterBar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filterItem {
+  background-color: #f2eedf;
+  border: 1px solid #d8d8d8;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.datePicker {
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  cursor: pointer;
+  width: 100px;
+}
+
+.total {
+  font-weight: bold;
+  color: #2f6f4e;
+  margin-top: 0.4rem;
+}

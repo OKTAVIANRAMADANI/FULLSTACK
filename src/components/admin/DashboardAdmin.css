@@ -1,0 +1,124 @@
+/* Root layout */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8fafc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.navItem {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+  text-decoration: none;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  background-color: #334155;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+  padding: 0 2.5rem 2.5rem 1.5rem; /* atas = 0 */
+  background-color: #f8fafc;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 2rem 0.25rem; /* margin-top = 0, kiri = 0.25rem */
+  align-self: flex-start;
+}
+
+
+
+/* Statistic cards */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 100%; /* Biar fleksibel di dalam grid */
+  min-width: 240px;
+  max-width: 280px;
+  height: 160px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1d4ed8;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #475569;
+  margin: 0;
+}
+
+
+/* Info section */
+.infoSection {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.infoSection h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.infoSection p {
+  color: #475569;
+}
